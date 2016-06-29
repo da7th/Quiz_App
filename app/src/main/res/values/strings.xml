@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Little Quiz</string>
+    <string name="q1Tag">Q1</string>
+    <string name="q2Tag">Q2</string>
+    <string name="q3Tag">Q3</string>
+    <string name="q4Tag">Q4</string>
+    <string name="q5Tag">Q5</string>
+    <string name="q6Tag">Q6</string>
+    <string name="question1">What do you call a baby hamster?</string>
+    <string name="question2">Which planets come before and after Mars?</string>
+    <string name="question3">What do you call a baby Hawk?</string>
+    <string name="question4">What do you call a baby Hare?</string>
+    <string name="question5">What are two names for a baby Hedgehog?</string>
+    <string name="question6">What do you call a baby Peacock?</string>
+    <string name="answer1Q1">Pup</string>
+    <string name="answer2Q1">Furbie</string>
+    <string name="answer3Q1">Mouse</string>
+    <string name="answer4Q1">Piglet</string>
+    <string name="answer1Q2">Earth</string>
+    <string name="answer2Q2">Jupiter</string>
+    <string name="answer3Q2">Venus</string>
+    <string name="answer4Q2">Neptune</string>
+    <string name="answer1Q4">Pup</string>
+    <string name="answer2Q4">Rabbit</string>
+    <string name="answer3Q4">Bunny</string>
+    <string name="answer4Q4">Leveret</string>
+    <string name="answer1Q5">Pup</string>
+    <string name="answer2Q5">Kit</string>
+    <string name="answer3Q5">Calf</string>
+    <string name="answer4Q5">Piglet</string>
+
+    //write text answer in Capital
+    <string name="answerForQ6">PEACHICK</string>
+    <string name="answerForQ3">EYAS</string>
+    <string name="submitAnswers">Submit Answers</string>
+
+
+
+</resources>

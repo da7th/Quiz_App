@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/questionBoxStyle"
+            android:background="@android:color/holo_red_light">
+
+            <TextView
+                style="@style/qStyle"
+                android:text="@string/q1Tag" />
+
+            <TextView
+                style="@style/questionStyle"
+                android:text="@string/question1" />
+
+            <RadioGroup
+                style="@style/answerBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/q1_ans1"
+                    style="@style/radioButton1Style"
+                    android:layout_weight="1"
+                    android:onClick="radioButtonQ1" />
+
+                <RadioButton
+                    android:id="@+id/q1_ans3"
+                    style="@style/radioButton1Style"
+                    android:layout_weight="1"
+                    android:onClick="radioButtonQ1" />
+
+                <RadioButton
+                    android:id="@+id/q1_ans4"
+                    style="@style/radioButton1Style"
+                    android:layout_weight="1"
+                    android:onClick="radioButtonQ1" />
+
+                <RadioButton
+                    android:id="@+id/q1_ans2"
+                    style="@style/radioButton1Style"
+                    android:layout_weight="1"
+                    android:onClick="radioButtonQ1" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                style="@style/answerBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/radioButton1Style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/answer1Q1" />
+
+                <TextView
+                    style="@style/radioButton1Style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/answer2Q1" />
+
+                <TextView
+                    style="@style/radioButton1Style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/answer3Q1" />
+
+                <TextView
+                    style="@style/radioButton1Style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/answer4Q1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionBoxStyle"
+            android:background="@android:color/holo_blue_light">
+
+            <TextView
+                style="@style/qStyle"
+                android:text="@string/q2Tag" />
+
+            <TextView
+                style="@style/questionStyle"
+                android:text="@string/question2" />
+
+            <RelativeLayout style="@style/answerBoxStyle">
+
+                <CheckBox
+                    android:id="@+id/q2_ans1"
+                    style="@style/checkBox1Style"
+                    android:onClick="checkBoxQ2"
+                    android:text="@string/answer1Q2" />
+
+                <CheckBox
+                    android:id="@+id/q2_ans3"
+                    style="@style/checkBox3Style"
+                    android:onClick="checkBoxQ2"
+                    android:text="@string/answer3Q2" />
+
+                <CheckBox
+                    android:id="@+id/q2_ans4"
+                    style="@style/checkBox4Style"
+                    android:onClick="checkBoxQ2"
+                    android:text="@string/answer4Q2" />
+
+                <CheckBox
+                    android:id="@+id/q2_ans2"
+                    style="@style/checkBox2Style"
+                    android:layout_alignLeft="@id/q2_ans4"
+                    android:onClick="checkBoxQ2"
+                    android:text="@string/answer2Q2" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionBoxStyle"
+            android:background="@android:color/holo_purple">
+
+            <TextView
+                style="@style/qStyle"
+                android:text="@string/q3Tag" />
+
+            <TextView
+                style="@style/questionStyle"
+                android:text="@string/question3" />
+
+            <RelativeLayout style="@style/answerBoxStyle">
+
+                <EditText
+                    android:id="@+id/editTextQ3"
+                    style="@style/editTextStyle" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionBoxStyle"
+            android:background="@android:color/white">
+
+            <TextView
+                style="@style/qStyle"
+                android:text="@string/q4Tag" />
+
+            <TextView
+                style="@style/questionStyle"
+                android:text="@string/question4" />
+
+            <RadioGroup
+                style="@style/answerBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/q4_ans1"
+                    style="@style/radioButton1Style"
+                    android:layout_weight="1"
+                    android:onClick="radioButtonQ4" />
+
+                <RadioButton
+                    android:id="@+id/q4_ans3"
+                    style="@style/radioButton1Style"
+                    android:layout_weight="1"
+                    android:onClick="radioButtonQ4" />
+
+                <RadioButton
+                    android:id="@+id/q4_ans2"
+                    style="@style/radioButton1Style"
+                    android:layout_weight="1"
+                    android:onClick="radioButtonQ4" />
+
+                <RadioButton
+                    android:id="@+id/q4_ans4"
+                    style="@style/radioButton1Style"
+                    android:layout_weight="1"
+                    android:onClick="radioButtonQ4" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                style="@style/answerBoxStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/radioButton1Style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/answer1Q4" />
+
+                <TextView
+                    style="@style/radioButton1Style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/answer2Q4" />
+
+                <TextView
+                    style="@style/radioButton1Style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/answer3Q4" />
+
+                <TextView
+                    style="@style/radioButton1Style"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/answer4Q4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionBoxStyle"
+            android:background="@android:color/holo_orange_light">
+
+            <TextView
+                style="@style/qStyle"
+                android:text="@string/q5Tag" />
+
+            <TextView
+                style="@style/questionStyle"
+                android:text="@string/question5" />
+
+            <RelativeLayout style="@style/answerBoxStyle">
+
+                <CheckBox
+                    android:id="@+id/q5_ans1"
+                    style="@style/checkBox1Style"
+                    android:onClick="checkBoxQ5"
+                    android:text="@string/answer1Q5" />
+
+                <CheckBox
+                    android:id="@+id/q5_ans3"
+                    style="@style/checkBox3Style"
+                    android:onClick="checkBoxQ5"
+                    android:text="@string/answer3Q5" />
+
+                <CheckBox
+                    android:id="@+id/q5_ans4"
+                    style="@style/checkBox4Style"
+                    android:onClick="checkBoxQ5"
+                    android:text="@string/answer4Q5" />
+
+                <CheckBox
+                    android:id="@+id/q5_ans2"
+                    style="@style/checkBox2Style"
+                    android:layout_alignLeft="@id/q5_ans4"
+                    android:onClick="checkBoxQ5"
+                    android:text="@string/answer2Q5" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionBoxStyle"
+            android:background="@android:color/holo_green_light">
+
+            <TextView
+                style="@style/qStyle"
+                android:text="@string/q6Tag" />
+
+            <TextView
+                style="@style/questionStyle"
+                android:text="@string/question6" />
+
+            <RelativeLayout style="@style/answerBoxStyle">
+
+                <EditText
+                    android:id="@+id/editTextQ6"
+                    style="@style/editTextStyle" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:onClick="calculateScore"
+            android:text="@string/submitAnswers"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+</ScrollView>
